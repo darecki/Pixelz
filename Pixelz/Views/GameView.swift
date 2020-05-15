@@ -9,17 +9,21 @@
 import SwiftUI
 
 struct GameView: View {
-    let board: Board
-    
+    @State var board: Board
+
     var body: some View {
         VStack {
             StatsView()
                 .padding()
             BoardView(board: board)
                 .padding(.bottom)
-            ControlView()
+            ControlView(tileTapped: didTapTile)
         }
         .padding()
+    }
+
+    func didTapTile(_ color: Int) {
+        board.makeMove(color)
     }
 }
 

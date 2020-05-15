@@ -9,11 +9,16 @@
 import SwiftUI
 
 struct ControlView: View {
+    var tileTapped: ((Int) -> Void)?
+
     var body: some View {
         HStack(alignment: .center, spacing: 0) {
             ForEach(0..<5, id: \.self) { item in
                 return TileView(tile: Tile(value: item))
-                    .aspectRatio(1, contentMode: .fit)
+                    .onTapGesture {
+                        self.tileTapped?(item)
+                }
+                .aspectRatio(1, contentMode: .fit)
             }
         }
         .border(Color.primary, width: 5)
