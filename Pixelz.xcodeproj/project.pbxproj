@@ -21,6 +21,7 @@
 		E5FBB7B4246E85AE00E3D01F /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FBB7B3246E85AE00E3D01F /* BoardView.swift */; };
 		E5FBB7B6246E8AB400E3D01F /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FBB7B5246E8AB400E3D01F /* TileView.swift */; };
 		E5FBB7B8246E8CE600E3D01F /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FBB7B7246E8CE600E3D01F /* ColorExtensions.swift */; };
+		E5FBB7BC246EA24F00E3D01F /* BoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FBB7BB246EA24F00E3D01F /* BoardTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E5FBB7B3246E85AE00E3D01F /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		E5FBB7B5246E8AB400E3D01F /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		E5FBB7B7246E8CE600E3D01F /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		E5FBB7BB246EA24F00E3D01F /* BoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				E5FBB78F246E762400E3D01F /* PixelzTests.swift */,
+				E5FBB7BB246EA24F00E3D01F /* BoardTests.swift */,
 				E5FBB791246E762400E3D01F /* Info.plist */,
 			);
 			path = PixelzTests;
@@ -325,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FBB7BC246EA24F00E3D01F /* BoardTests.swift in Sources */,
 				E5FBB790246E762400E3D01F /* PixelzTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
