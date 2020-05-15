@@ -13,10 +13,13 @@ struct GameView: View {
     
     var body: some View {
         VStack {
-            Text("The board is here")
+            StatsView()
+                .padding()
             BoardView(board: board)
-            .padding()
+                .padding(.bottom)
+            ControlView()
         }
+        .padding()
     }
 }
 

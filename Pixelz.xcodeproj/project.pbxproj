@@ -22,6 +22,8 @@
 		E5FBB7B6246E8AB400E3D01F /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FBB7B5246E8AB400E3D01F /* TileView.swift */; };
 		E5FBB7B8246E8CE600E3D01F /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FBB7B7246E8CE600E3D01F /* ColorExtensions.swift */; };
 		E5FBB7BC246EA24F00E3D01F /* BoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FBB7BB246EA24F00E3D01F /* BoardTests.swift */; };
+		E5FBB7BE246F20BB00E3D01F /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FBB7BD246F20BB00E3D01F /* ControlView.swift */; };
+		E5FBB7C0246F333700E3D01F /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FBB7BF246F333700E3D01F /* StatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		E5FBB7B5246E8AB400E3D01F /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		E5FBB7B7246E8CE600E3D01F /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		E5FBB7BB246EA24F00E3D01F /* BoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTests.swift; sourceTree = "<group>"; };
+		E5FBB7BD246F20BB00E3D01F /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		E5FBB7BF246F333700E3D01F /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,8 @@
 				E5FBB77C246E762000E3D01F /* ContentView.swift */,
 				E5FBB7A8246E7C6D00E3D01F /* GameView.swift */,
 				E5FBB7B3246E85AE00E3D01F /* BoardView.swift */,
+				E5FBB7BD246F20BB00E3D01F /* ControlView.swift */,
+				E5FBB7BF246F333700E3D01F /* StatsView.swift */,
 				E5FBB7B5246E8AB400E3D01F /* TileView.swift */,
 			);
 			path = Views;
@@ -312,10 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FBB7C0246F333700E3D01F /* StatsView.swift in Sources */,
 				E5FBB7B4246E85AE00E3D01F /* BoardView.swift in Sources */,
 				E5FBB779246E762000E3D01F /* AppDelegate.swift in Sources */,
 				E5FBB7B6246E8AB400E3D01F /* TileView.swift in Sources */,
 				E5FBB77B246E762000E3D01F /* SceneDelegate.swift in Sources */,
+				E5FBB7BE246F20BB00E3D01F /* ControlView.swift in Sources */,
 				E5FBB7B0246E83DE00E3D01F /* Board.swift in Sources */,
 				E5FBB7B8246E8CE600E3D01F /* ColorExtensions.swift in Sources */,
 				E5FBB7B2246E83E600E3D01F /* Tile.swift in Sources */,

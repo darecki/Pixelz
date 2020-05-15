@@ -84,7 +84,7 @@ struct Board {
 
 extension Board {
     static var random: Board {
-        var board = Board(rows: 6, columns: 4)
+        var board = Board(rows: 11, columns: 10)
         board.shuffle()
         return board
     }
